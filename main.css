@@ -435,3 +435,8 @@ footer {
     margin: 0 auto !important;
   }
 }
+
+.about-img {
+  height: 500px;
+  width: 800px;
+}
