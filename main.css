@@ -430,4 +430,57 @@ img.mobile-img {
   /* identical to box height */
   color: #FFFFFF;
 }
+
+.bd-txt-sm {
+  position: absolute;
+width: 299px;
+height: 42px;
+left: 10.81%;
+top: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.guru {
+  position: absolute;
+  left: 33.59%;
+  right: 62.57%;
+  top: 26.7%;
+  bottom: 60.75%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+  
+img.guru-2 {
+  position: absolute;
+  left: 60.59%;
+  right: 62.57%;
+  top: 26.7%;
+  bottom: 60.75%;
+}
+  
+.guru-3 {
+  position: absolute;
+  left: 30.59%;
+  right: 62.57%;
+  top: 55.7%;
+  bottom: 60.75%;
+}
+  
+.guru-4 {
+  position: absolute;
+  left: 60.59%;
+  right: 62.57%;
+  top: 55.7%;
+  bottom: 60.75%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.container {
+  top: 100%;
+}
   
