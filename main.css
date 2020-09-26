@@ -1,15 +1,8 @@
 
-body {
-  height: 3583px;
-  background: #FFFFFF;
-}
 
 .rectangle-2 {
-  position: absolute;
   width: 100%;
   height: 100px;
-  left: 0px;
-  top: 0px;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #536BEE;
   border-radius: 0px 0px 30px 30px;
   }
@@ -533,5 +526,105 @@ strong {
   position: absolute;
   left: 45px;
   top: 55px;
-  
 }
+
+.spon-txt {
+  position: absolute;
+  width: 519px;
+  height: 36px;
+  left: 180px;
+  top: 80px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.ment {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 180px;
+  top: 140px;
+}
+
+.ment-hd  {
+  position: absolute;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  left: 280px;
+  top: 140px;
+}
+
+.ment-bd  {
+  position: absolute;
+  width: 451px;
+  height: 38px;
+  left: 280px;
+  top: 180px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.ment-link  {
+  position: absolute;
+  width: 121px;
+  height: 22px;
+  left: 600px;
+  top: 260px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  border: none;
+  background: transparent;
+  color: yellow;
+}
+
+.ment-prev  {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1100px;
+  top: 170px;
+}
+
+.ment-next  {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1220px;
+  top: 170px;
+}
+
+.rectangle-15 {
+  position: absolute;
+  width: 90%;
+  height: 400px;
+  left: 0px;
+  top: 2400px;
+  background: #687FFF;
+  box-shadow: 9px 9px 32px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 50px 50px 0px;
+}
+
+.rectangle-14 {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  left: 0px;
+  top: 2600px;
+  background: #536BEE;
+}
+
