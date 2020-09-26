@@ -629,3 +629,29 @@ strong {
   background: #536BEE;
 }
 
+.footer-logo  {
+  position: absolute;
+  width: 71px;
+  height: 34px;
+  left: 180px;
+  top: 290px;
+  /* left: 203px;
+  top: 3175px; */
+  color: #FFFFFF;
+}
+
+.footer-txt {
+  position: absolute;
+  width: 350px;
+  height: 95px;
+  top: 360px;
+  left: 180px;
+  /* left: 203px;
+  top: 3248px; */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
