@@ -1,6 +1,7 @@
 
 
 .rectangle-2 {
+  position: relative;
   width: 100%;
   height: 100px;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #536BEE;
@@ -47,7 +48,7 @@ img.logo {
 }
 
 .gallery  {
-position: absolute;
+position: relative;
 width: 46px;
 height: 17px;
 left: 855px;
@@ -62,7 +63,7 @@ color: #FFFFFF;
 }
 
 .experiences  {
-  position: absolute;
+  position: relative;
   width: 77px;
   height: 17px;
   left: 950px;
