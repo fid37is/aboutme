@@ -572,7 +572,8 @@ strong {
 
 .card {
   display: flex;
-  overflow-x: scroll;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 .card::-webkit-scrollbar {
@@ -637,6 +638,8 @@ img.design-4 {
   border-radius: 40px;
 } */
 
+
+
 .rectangle-hide3  {
   position: absolute;
   width: 203px;
@@ -665,6 +668,20 @@ background: #FFFFFF;
   background: #FFFFFF;
 }
 
+.most-rec {
+  position: absolute;
+  width: 288px;
+  height: 36px;
+  left: 203px;
+  top: 1956px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #536BEE;
+}
 
 
 
@@ -680,13 +697,14 @@ background: #FFFFFF;
   position: absolute;
   width: 519px;
   height: 36px;
-  left: 180px;
-  top: 80px;
+  left: 200px;
+  top: 130px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
+  /* identical to box height */
   color: #FFFFFF;
 }
 
@@ -694,28 +712,30 @@ background: #FFFFFF;
   position: absolute;
   width: 64px;
   height: 64px;
-  left: 180px;
-  top: 140px;
+  left: 204px;
+  top: 200px;
 }
 
 .ment-hd  {
   position: absolute;
+  width: 519px;
+  height: 24px;
+  left: 292px;
+  top: 200px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
-  left: 280px;
-  top: 140px;
 }
 
 .ment-bd  {
   position: absolute;
   width: 451px;
   height: 38px;
-  left: 280px;
-  top: 180px;
+  left: 293px;
+  top: 240px;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -728,32 +748,32 @@ background: #FFFFFF;
   position: absolute;
   width: 121px;
   height: 22px;
-  left: 600px;
-  top: 260px;
+  left: 620px;
+  top: 330px;
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 25px;
-  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
   background: transparent;
-  color: yellow;
+  border: none;
 }
 
 .ment-prev  {
   position: absolute;
   width: 49px;
   height: 50px;
-  left: 1100px;
-  top: 170px;
+  left: 1362px;
+  top: 220px;
 }
 
 .ment-next  {
   position: absolute;
   width: 49px;
   height: 50px;
-  left: 1220px;
-  top: 170px;
+  left: 1501px;
+  top: 220px;
 }
 
 .rectangle-15 {
@@ -780,25 +800,138 @@ background: #FFFFFF;
   position: absolute;
   width: 71px;
   height: 34px;
-  left: 180px;
-  top: 290px;
-  /* left: 203px;
-  top: 3175px; */
+  left: 203px;
+  top: 420px;
   color: #FFFFFF;
 }
 
 .footer-txt {
   position: absolute;
-  width: 350px;
+  width: 519px;
   height: 95px;
-  top: 360px;
-  left: 180px;
-  /* left: 203px;
-  top: 3248px; */
+  left: 203px;
+  top: 500px;
+  
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  
+  color: #FFFFFF;
+}
+
+.footer-ecl0 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 203px;
+  top: 3382px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.footer-ecl1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+    left: 277px;
+  top: 3382px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.footer-ecl2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 353px;
+  top: 3382px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.footer-ecl3 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 429px;
+  top: 3382px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.twitter  {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 218px;
+  top: 3397px;
+}
+
+.linkedin  {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 292px;
+  top: 3397px;
+}
+
+.facebook {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 372px;
+  top: 3397px;
+}
+
+.instagram  {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 445px;
+  top: 3397px;
+  color: red;
+}
+
+.quicklinks {
+  position: absolute;
+  width: 121px;
+  height: 24px;
+  left: 910px;
+  top: 3185px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.blog {
+  position: absolute;
+  width: 121px;
+  height: 24px;
+  left: 1250px;
+  top: 3185px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.contact{
+  position: absolute;
+  width: 105px;
+  height: 24px;
+  left: 1560px;
+  top: 3177px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   color: #FFFFFF;
 }
