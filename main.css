@@ -516,6 +516,160 @@ strong {
   color: #536BEE;
 }
 
+.skill-next {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1240px;
+  top: 1908px;
+}
+
+.skill-prev {
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 1171px;
+  top: 1908px;  
+}
+
+.rectangle-hide0 {
+  position: absolute;
+  width: 257px;
+  height: 96px;
+  left: -1px;
+  top: 1932px;
+  background: #FFFFFF;
+}
+
+.rectangle-hide1 {
+  position: absolute;
+  width: 182px;
+  height: 560px;
+  left: 22px;
+  top: 1995px;
+  background: #FFFFFF;
+  box-shadow: 10px 0px 22px rgba(0, 0, 0, 0.22);
+}
+
+.rectangle-hide2  {
+  position: absolute;
+  width: 256px;
+  height: 107px;
+  left: 0px;
+  top: 2461px; 
+  background: #FFFFFF;
+}
+
+.card {
+  position: relative;
+  left: 178px;
+  top: 2041px;
+  background-color: #fff;
+  min-width: 100%;
+  min-height: 380px;
+}
+
+
+.card {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+.card--content {
+  min-width: 26%; 
+  height: 400px;
+  margin: 5px;
+}
+
+img.design-1 {
+  width: 50rem;
+  height: 38rem;
+  border-radius: 40px;
+  left: 1461px;
+}
+
+
+/* img.design-1  {
+  position: absolute;
+  width: 475px;
+  height: 366px;
+  left: 178px;
+  top: 2041px;
+  background: url(design-7.png);
+  border-radius: 40px;
+} */
+
+/*
+img.design-2  {
+  position: absolute;
+  width: 416px;
+  height: 382px;
+  left: 620px;
+  top: 2057px;
+  background: url(X - 1.png);
+  filter: drop-shadow(-14px 14px 32px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+}
+
+img.design-3  {
+  position: absolute;
+  width: 496px;
+  height: 377px;
+  left: 1006px;
+  top: 2041px;
+  background: url(design.png);
+  filter: drop-shadow(-14px 14px 32px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+}
+
+img.design-4 {
+  position: absolute;
+  width: 412px;
+  height: 377px;
+  left: 1461px;
+  top: 2057px;
+  background: url(phycasty.png);
+  filter: drop-shadow(-14px 14px 32px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+} */
+
+.rectangle-hide3  {
+  position: absolute;
+  width: 203px;
+  height: 560px;
+  left: 1717px;
+  top: 1949px;
+  background: #FFFFFF;
+  box-shadow: -10px 0px 16px rgba(0, 0, 0, 0.21);
+}
+
+.rectangle-hide4 {
+position: absolute;
+width: 228px;
+height: 131px;
+left: 1689px;
+top: 1908px;
+background: #FFFFFF;
+}
+
+.rectangle-hide5 {
+  position: absolute;
+  width: 260px;
+  height: 107px;
+  left: 1622px;
+  top: 2461px; 
+  background: #FFFFFF;
+}
+
+
+
+
+
+
 .exp-vector {
   position: absolute;
   left: 75px;
@@ -604,10 +758,10 @@ strong {
 
 .rectangle-15 {
   position: absolute;
-  width: 90%;
-  height: 400px;
+  width: 1741px;
+  height: 487px;
   left: 0px;
-  top: 2400px;
+  top: 2595px;
   background: #687FFF;
   box-shadow: 9px 9px 32px rgba(0, 0, 0, 0.25);
   border-radius: 0px 50px 50px 0px;
@@ -615,10 +769,10 @@ strong {
 
 .rectangle-14 {
   position: absolute;
-  width: 100%;
-  height: 700px;
+  width: 1920px;
+  height: 814px;
   left: 0px;
-  top: 2600px;
+  top: 2769px;
   background: #536BEE;
 }
 
