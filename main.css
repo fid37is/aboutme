@@ -13,8 +13,17 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
+    color: #ffffff;
     /* identical to box height */
+}
+
+a.active    {
     color: #C74B06;
+}
+
+a:hover {
+    background-color: #c7490633;
+    border-radius: 60%;
 }
 
 .about {
@@ -193,6 +202,15 @@ a {
     background: linear-gradient(104.67deg, #222222 0%, rgba(34, 34, 34, 0) 74.46%);
 }
 
+.greySection-1 {
+    position: absolute;
+    width: 1440px;
+    height: 693px;
+    left: 0px;
+    top: 1172px;
+    background: linear-gradient(104.67deg, #222222 0%, rgba(48, 46, 46, 0) 74.46%);
+}
+
 .ellipse-1 {
     position: absolute;
     position: absolute;
@@ -283,4 +301,211 @@ a {
     color: #C74B06;
 }
 
+.hirelez-1  {
+    position: absolute;
+    width: 250px;
+    height: 41px;
+    left: 240px;
+    top: 1434px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
 
+.hirelez-p1 {
+    position: absolute;
+    width: 217px;
+    height: 44px;
+    left: 240px;
+    top: 1491px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.ellipse-2 {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    left: 99px;
+    top: 1430px;
+    border-radius: 100%;
+    background: #101010;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.vector-2   {
+    position: absolute;
+    height: 50px;
+    height: 50px;
+    width: 50px;
+    left: 131px;
+    top: 1462px;
+    border-radius: 0px;
+}
+
+.lnMore-3   {
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 115px;
+    top: 1586px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #C74B06;
+}
+
+.img-4 {
+    position: absolute;
+    width: 300px;
+    height: 205px;
+    left: 845px;
+    top: 1410px;
+    background: #C4C4C4;
+}
+
+.img-5 {
+    position: absolute;
+    width: 100px;
+    height: 205px;
+    left: 963px;
+    top: 1505px;
+    box-shadow: -6px -3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.aboutHead {
+    position: absolute;
+    width: 460px;
+    height: 54px;
+    left: 99px;
+    top: 130px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+
+.para-1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    width: 812px;
+    height: 448px;
+    left: 99px;
+    top: 227px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.contactText {
+    position: absolute;
+    width: 236px;
+    height: 54px;
+    left: 99px;
+    top: 130px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF
+}
+
+.contact-para {
+    position: absolute;
+    width: 582px;
+    height: 41px;
+    left: 99px;
+    top: 247px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.telegram   {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 99px;
+    top: 371px;
+}
+
+.facebook   {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 231px;
+    top: 371px;    
+}
+
+.twitter    {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 360px;
+    top: 371px;
+}
+
+.conText-1  {
+    position: absolute;
+    width: 400px;
+    height: 28px;
+    left: 99px;
+    top: 504px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.conText-2  {
+    position: absolute;
+    width: 615px;
+    height: 28px;
+    left: 99px;
+    top: 605px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer {
+    position: absolute;
+    width: 798px;
+    height: 22px;
+    left: 321px;
+    text-align: center;
+    top: 909px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
